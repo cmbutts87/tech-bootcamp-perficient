@@ -1,0 +1,65 @@
+body{
+	background-color: #FFFFEB;
+}
+
+.left {
+	margin: auto;
+	float: left;
+	width: 50%	
+}
+
+.right {
+	margin: auto;
+	float: right;
+	width: 50%;
+}
+
+#landlord-info {
+	padding-bottom: 20px;
+}
+
+#property-info {
+	padding-bottom: 20px;
+}
+
+tr:nth-child(even) {
+	background: #DEE094;
+}
+
+tr:nth-child(odd) {
+	background: #E4E6B5;
+}
+
+#new-first-name {
+	width: 150px;
+}
+
+#new-last-name {
+	width: 150px;
+	margin-left: 2px;
+}
+
+/*add-property*/
+#new-property-name {
+	width: 200px;
+}
+
+#new-rent {
+	margin-left: 67px;
+	width: 60px;
+}
+
+#new-landlord-id {
+	margin-left: 18px;
+	width: 50px;
+}
+
+#rent-search {
+	margin-left: 1%;
+	padding-bottom: 20px
+}
+
+#rent-lookup {
+	width:60px;
+}
+

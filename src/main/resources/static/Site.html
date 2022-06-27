@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<link rel="stylesheet" href="/css/Style.css"></link>
+		<script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+		<script type="text/javascript" src="app.js"></script>
+		<title>The Renter's Repository</title>
+	</head>
+	
+	<body>
+	<div id="background">
+		<div class="header left"> 
+			<h1>Landlords</h1>
+		</div>
+		<div class="header right">
+			<h1>Properties</h1>
+		</div>
+		<div class="left" id="landlord-info">
+			<table id="landlord-table">
+			<thead>
+				<tr>
+					<th>Landlord ID</th>
+					<th>First Name</th>
+					<th>Last Name</th>
+				</tr>
+			</thead>
+			<tbody>
+			</tbody>
+			</table>
+		</div>
+		<div class="right" id="property-info">
+			<table id="property-table">
+			<thead>
+				<tr>
+					<th>Property No.</th>
+					<th>Property Name</th>
+					<th>Rent</th>
+					<th>Landlord ID</th>
+				</tr>
+			</thead>
+			<tbody>
+			</tbody>
+			</table>
+		</div>
+		<div class="left" id="add-landlord">
+			<form id="add-landlord-form">
+				<label for="new-first-name">First Name:</label>
+				<input type="text" id="new-first-name" name="first-name"/><br>
+				<label for="new-last-name">Last Name:</label>
+				<input type="text" id="new-last-name" name="last-name"/><br>
+				<input type="submit" class="submit-button"/>
+			</form>
+		</div>
+		
+		<div class="right" id="rent-search">
+			<label for="rent-lookup">Displaying properties with rent less than: </label>
+			<input type="number" id="rent-lookup" name="rent-lookup" min="1">
+		</div>
+		
+		<div class="right" id ="add-property">
+			<form id = add-property-form>
+				<label for="new-property-name">Property Name:</label>
+				<input type="text" id="new-property-name" name="property-name"/><br>
+				<label for="new-rent">Rent:</label>
+				<input type="number" id="new-rent" name="rent"/><br>
+				<label for="new-landlord-id">Landlord ID:</label>
+				<input type="number" id="new-landlord-id" name="landlord-id"/><br>
+				<input type="submit" class="submit-button"/>
+			</form>
+		</div>
+	</div>
+	</body>
+
+</html>
